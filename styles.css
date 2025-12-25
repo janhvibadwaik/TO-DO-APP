@@ -51,3 +51,44 @@ body{
     height: 25px;
     cursor: pointer;
 }
+@media (max-width: 600px) {
+
+    .header {
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 0 0 60px 60px;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .img-header {
+        height: 60px;
+    }
+
+    #todo-items-container {
+        padding: 15px 15px 100px;
+    }
+
+    .todo-item {
+        font-size: 16px;
+        padding: 8px 12px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #new-todo-input {
+        width: 65%;
+        font-size: 16px;
+    }
+
+    #add-button {
+        height: 35px;
+    }
+
+    .trash-icon {
+        height: 20px;
+    }
+}
