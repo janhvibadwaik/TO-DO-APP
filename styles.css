@@ -11,3 +11,9 @@ body{
     border-radius: 0 0 100px 100px;
     gap:10px;
 }
+.img-header{
+    height:80px;
+}
+#todo-items-container{
+    padding:20px 40px 80px;
+}
