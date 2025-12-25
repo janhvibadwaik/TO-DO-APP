@@ -36,19 +36,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
+    min-height: 80px;
 }
-#todo-input {
-    height: 40px;
+#new-todo-input {
+    height: 70px;
     padding: 0 20px;
     width: 40%;
     margin-right: 10px;
     font-size: 18px;
+    border-radius: 35px;
     box-sizing: border-box;
 }
 
 #add-button {
-    height: 40px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -89,14 +91,14 @@ body{
         justify-content: space-between;
     }
 
-    #todo-input {
+    #new-todo-input {
         width: 65%;
         font-size: 16px;
-        height:35px;
+        height:50px;
     }
 
     #add-button {
-        height: 35px;
+        height: 50px;
     }
 
     .trash-icon {
