@@ -33,3 +33,7 @@ function displayTodoItems() {
             newTodoInput.value = "";
             displayTodoItems();
         }
+        function deleteTask(index) {
+            todoItems.splice(index, 1);
+            displayTodoItems();
+        }
