@@ -79,7 +79,7 @@ body{
         justify-content: space-between;
     }
 
-    #new-todo-input {
+    #todo-input {
         width: 65%;
         font-size: 16px;
     }
