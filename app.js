@@ -19,3 +19,17 @@ function displayTodoItems() {
             }
         }
         displayTodoItems();
+
+        function addTodoItem() {
+            const newTodoInput = document.getElementById('new-todo-input');
+            const newTodoItem = newTodoInput.value;
+
+            if (!newTodoItem.trim()) {
+                alert("Please enter a valid task.");
+                return;
+            }
+
+            todoItems.push(newTodoItem);
+            newTodoInput.value = "";
+            displayTodoItems();
+        }
