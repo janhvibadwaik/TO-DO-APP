@@ -17,3 +17,37 @@ body{
 #todo-items-container{
     padding:20px 40px 80px;
 }
+.todo-item{
+    padding:5px 20px;
+    border:1px solid black;
+    border-radius:20px;
+    margin:10px auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo-add-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffe1af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+#todo-input{
+    padding: 5px 20px;
+    width:40%;
+    margin-right: 10px;
+}
+#add-button{
+    height: 40px;
+    cursor: pointer;
+}
+.trash-icon{
+    height: 25px;
+    cursor: pointer;
+}
