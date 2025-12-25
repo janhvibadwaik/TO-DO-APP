@@ -38,18 +38,28 @@ body{
     align-items: center;
     padding: 10px 0;
 }
-#todo-input{
-    padding: 5px 20px;
-    width:40%;
+#todo-input {
+    height: 40px;
+    padding: 0 20px;
+    width: 40%;
     margin-right: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
 }
-#add-button{
+
+#add-button {
     height: 40px;
     cursor: pointer;
 }
+
 .trash-icon{
     height: 25px;
     cursor: pointer;
+}
+.todo-item:hover {
+    background-color: #ffe1af;
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 @media (max-width: 600px) {
 
